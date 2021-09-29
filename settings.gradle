@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "QuestStandalone"
 include ':app'
 include ':SlimeCommonsLibrary'
+include ':SlimeServerLibrary'
