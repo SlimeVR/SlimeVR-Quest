@@ -36,13 +36,6 @@ class TestForegroundService : Service() {
     }
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         Log.d(TestForegroundService::class.java.name, "onStartCommand: ")
-       /* if(intent==null || intent.extras == null)
-        {
-            showForegroundNotification()
-            Log.d(TestForegroundService::class.java.name, "onStartCommand: null")
-            return START_STICKY
-        }*/
-        Log.d(TestForegroundService::class.java.name, "onStartCommand: ")
         showForegroundNotification()
         disposable.add(Observable.interval(1000,TimeUnit.MILLISECONDS)
             .doOnNext { Log.d(TestForegroundService::class.java.name, "onStartCommand timer: $it")
