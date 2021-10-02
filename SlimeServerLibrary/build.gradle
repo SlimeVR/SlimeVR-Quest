@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+    id "com.google.protobuf"
+}
+
+java {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    implementation project(path: ':slime-java-commons')
+    implementation "org.java-websocket:Java-WebSocket:1.5.1"
+    implementation("com.google.guava:guava:31.0.1-android")
+
+}
