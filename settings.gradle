@@ -8,5 +8,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "QuestStandalone"
 include ':app'
-include ':SlimeCommonsLibrary'
+include ':slime-java-commons'
 include ':SlimeServerLibrary'

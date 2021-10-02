@@ -43,7 +43,7 @@ dependencies {
     def rxAndroidVersion = '2.1.1'
     def rxKotlinVersion = '2.4.0'
 
-    implementation project(path: ':SlimeCommonsLibrary')
+    implementation project(path: ':slime-java-commons')
     implementation project(path: ':SlimeServerLibrary')
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.6.0'

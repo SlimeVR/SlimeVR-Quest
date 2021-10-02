@@ -9,7 +9,7 @@ java {
 }
 
 dependencies {
-    implementation project(path: ':SlimeCommonsLibrary')
+    implementation project(path: ':slime-java-commons')
     implementation "org.java-websocket:Java-WebSocket:1.5.1"
     implementation("com.google.guava:guava:31.0.1-android")
 
